@@ -1,0 +1,113 @@
+/* hoja de estilos compartidos para ambos html- css global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(74, 75, 75);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    box-shadow: 0 3px 5px black;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, #000000,#0e95aa);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    
+}
+
+h3 p{
+    margin: 5px 0;
+}
+
+button{
+    background-color: rgb(55, 55, 56) ;
+    color: white;
+    border-radius: 6px;
+    padding:  9px;
+    box-shadow: 4px 4px 5px rgb(4, 1, 31);
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div{
+    box-shadow: 10px 10px 10px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(226deg, #3a03706b,#0e95aa);
+    transition: 1s;
+}
+
+div:hover{
+    transform: translate(-10px, -2px );
+}
+
+a{
+    text-decoration: none ;
+    color: black ;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: azure;
+}
+
+#logo {
+    height: 30px;
+    
+
+}
+
+#contador{
+    background-color: red;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    position: absolute;
+}
+
+header nav img {
+    height: 35px;
+}
+
+
+
+footer{
+    text-align: center;
+    box-shadow: 0px -3px 5px black; 
+    margin-top: 50px;
+}
+
+

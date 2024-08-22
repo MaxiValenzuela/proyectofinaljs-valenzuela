@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <title>Mxbuster</title>
+    <link rel="icon" href="../img/Designer.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../img/Designer.png" alt="logo"></a>
+            <div>
+                <a href="../index.html">Anime</a>
+                <a href="../index.html">Accion</a>
+                <a href="../index.html">Terror</a>
+                <a href="../index.html">Romance</a>
+                <a href="./carrito.html" id="carrito"><img src="../img/carrito-de-compras.png" id="logo" alt="Carro de compras"><span id="contador">0</span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p id="vacio">Sin productos!  <a href="../index.html">regresa para seguir comprando </a></p>
+        <section id="p_container"></section>
+        <section id="total">
+            <p>Total: <span id="unidad">0</span></p>
+            <p>Total precio: $ <span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+
+        </section>
+    </main>
+    <footer>
+        <p>Maximiliano valenzuela - Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/localst.js"></script>
+</body>
+</html>

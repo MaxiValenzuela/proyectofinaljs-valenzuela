@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(74, 75, 75);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    box-shadow: 0 3px 5px black;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, #000000,#0e95aa);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    
+}
+
+h3 p{
+    margin: 5px 0;
+}
+
+button{
+    background-color: rgb(55, 55, 56) ;
+    color: white;
+    border-radius: 6px;
+    padding:  9px;
+    box-shadow: 4px 4px 5px rgb(4, 1, 31);
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div{
+    box-shadow: 10px 10px 10px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(226deg, #3a03706b,#0e95aa);
+    transition: 1s;
+}
+
+a{
+    text-decoration: none ;
+    color: black ;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: azure;
+}
+
+#logo {
+    height: 30px;
+    
+
+}
+
+#contador{
+    background-color: red;
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    position: absolute;
+}
+
+header nav img {
+    height: 35px;
+}
+
+
+
+footer{
+    text-align: center;
+    box-shadow: 0px -3px 5px black; 
+    margin-top: 50px;
+}
+
+
+
+.card_producto{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 100px;
+    margin: 5px;
+}
+
+.card_producto img{
+    height: 100px;
+    
+}
+
+.card_producto h3{
+    width: 130;
+}
+
+
+#p_container{
+    width: 500px;
+    margin: auto;
+}
+
+.div-cantidad{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+#total{
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+#vacio{
+    text-align: center;
+}
+
+.esconder{
+    display: none;
+}
+
+/* Estilo para la alerta */
+.my-alert-title {
+    color: #000000; /* Cambia el color del título */
+    font-size: 25px; /* Cambia el tamaño de la fuente */
+    padding: 20px;
+}
+
+.my-alert-text {
+    color: #d46161; /* Cambia el color del texto */
+    font-size: 18px; /* Cambia el tamaño de la fuente */
+}
+
+.my-alert-footer {
+    text-align: center; /* Centra el texto del pie de página */
+    padding: 20px;
+}
+
+.my-alert-button {
+    background-color: #28a745; /* Cambia el color de fondo del botón */
+    color: rgb(19, 26, 89); /* Cambia el color del texto del botón */
+}
+.my-icon{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #df0d0d;
+}
+
+.mytext{
+    background-color: #000000
+}

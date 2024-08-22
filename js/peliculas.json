@@ -1,0 +1,16 @@
+[
+    { "id": "anabelle", "nombre": "Anabelle", "precio": 2000 },
+    { "id": "csflpv", "nombre": "Como si fuera la primera vez", "precio": 3000 },
+    { "id": "duro de matar", "nombre": "Duro de matar", "precio": 1850 },
+    { "id": "it the movie", "nombre": "It", "precio": 950},
+    { "id": "krampus", "nombre": "Krampus", "precio": 1209 },
+    { "id": "myhero2themovie", "nombre": "My hero academia: Heroes rising", "precio": 22000 },
+    { "id": "myhero3themovie", "nombre": "My hero academia: World mission", "precio": 3800 },
+    { "id": "myhero4themovie", "nombre": "My hero academia: You are Next", "precio": 9080 },
+    { "id": "myherothemovie", "nombre": "My hero academia: Two heroes", "precio": 1563 },
+    { "id": "pdteamo", "nombre": "PD: Te amo", "precio": 1000 },
+    { "id": "rapido_furioso", "nombre": "Rapido y furioso", "precio": 3456 },
+    { "id": "silenthill", "nombre": "Silent Hill", "precio": 4244 },
+    { "id": "titanic", "nombre": "Titanic", "precio": 11111 },
+    { "id": "transformers", "nombre": "Transformers", "precio": 2209 }
+]
