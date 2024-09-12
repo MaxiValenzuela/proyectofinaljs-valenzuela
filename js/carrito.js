@@ -5,6 +5,7 @@ const precioElement = document.getElementById("precio");
 const vacioElement = document.getElementById("vacio");
 const totalElement = document.getElementById("total");
 const botonReiniciar = document.getElementById("reiniciar");
+const botonComprar = document.getElementById("comprar");
 
 
 function cards() {
@@ -89,19 +90,34 @@ function carroVacio() {
 carroVacio();
 
 
-botonReiniciar.addEventListener("click", () => {
-    Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: "Aun no contamos con esa opción! Estamos trabajando para que pronto esté disponible",
-        footer: '<a href="#">Lo lamentamos</a>',
-        customClass: {
-            text:'mytext',
-            icon:'my-icon',
-            title: 'my-alert-title', 
-            html: 'my-alert-text', 
-            footer: 'my-alert-footer', 
-            confirmButton: 'my-alert-button' 
-        }
-    });
-});
+botonReiniciar.addEventListener("click",vaciarCarrito)
+function vaciarCarrito(){
+    localStorage.removeItem("peliculas");
+    actualizarTotal();
+    cards();
+}
+
+botonComprar.addEventListener("click",finalizarCompra)
+function finalizarCompra(){
+    Swal.fire("Tu compra se realizo con exito!");
+    localStorage.removeItem("peliculas");
+    actualizarTotal();
+    cards();
+}
+
+// botonReiniciar.addEventListener("click", () => {
+//     Swal.fire({
+//         icon: "error",
+//         title: "Oops...",
+//         text: "Aun no contamos con esa opción! Estamos trabajando para que pronto esté disponible",
+//         footer: '<a href="#">Lo lamentamos</a>',
+//         customClass: {
+//             text:'mytext',
+//             icon:'my-icon',
+//             title: 'my-alert-title', 
+//             html: 'my-alert-text', 
+//             footer: 'my-alert-footer', 
+//             confirmButton: 'my-alert-button' 
+//         }
+//     });
+// });

@@ -45,3 +45,7 @@ h3 p{
     margin-right: 70px;
     box-shadow: 4px 5px 6px black;
 }
+
+.filtro{
+    display: none;
+}

@@ -11,7 +11,7 @@ const crearCardProducto = ({ id, nombre, precio }) => {
         <img src="../img/${id}.jpg">
         <h3 class="mi-clase">${nombre}</h3>
         <p class="mi-clase-parrafo">${precio}</p>
-        <button>Comprar</button>
+        <button>Agregar</button>
     `;
     
     // Selecciona el botón dentro de la tarjeta recién creada
